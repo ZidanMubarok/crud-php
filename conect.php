@@ -1,8 +1,9 @@
 <?php
 $hostname = 'localhost';
 $username = 'root';
-$password = '';
+$password = 'root';
 $database = 'pythonuas';
+$base_url = 'http://localhost/uasgui/';
 
 $con = new mysqli($hostname, $username, $password, $database);
 

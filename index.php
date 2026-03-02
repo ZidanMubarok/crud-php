@@ -55,7 +55,7 @@ $result = $con->query($query);
                             <td><?= $row['reg_time']; ?></td>
                             <td>
                                 <a class="btn btn-warning" href="edit.php?id=<?= $row['id']; ?>">Edit</a>
-                                <a class="btn btn-danger" href="delete.php?id=<?= $row['id']; ?>">Hapus</a>
+                                <a class="btn btn-danger" href="delete.php?id=<?= $row['id']; ?>" onclick="return confirm('Apakah Anda yakin ingin menghapus data ini?')">Hapus</a>
                             </td>
                         </tr>
                     <?php

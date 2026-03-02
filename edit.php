@@ -26,10 +26,11 @@ $data = mysqli_fetch_assoc($result);
     <div class="my-5 p-3 bg-body rounded shadow-sm">
         <div class="d-flex justify-content-between border-bottom py-2">
             <h3 class="pb-2 mb-0">Edit Data </h3>
-            <a href="/uasgui/index.php" class="btn btn-primary"><- Kembali</a>
+            <a href="javascript:history.back()" class="btn btn-primary"><- Kembali</a>
+                    <!-- <a href="/uasgui/index.php" class="btn btn-primary"><- Kembali</a> -->
         </div>
         <div class="pt-3 mt-5">
-            <form action="/uasgui/update.php" method="POST">
+            <form action="<?= $base_url; ?>/update.php" method="POST">
                 <input type="hidden" name="id" value="<?= $data['id']; ?>">
                 <div class="mb-3">
                     <label for="title" class="form-label">Name Student</label>
