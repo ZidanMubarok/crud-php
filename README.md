@@ -39,5 +39,7 @@ CREATE TABLE pegawai (
     alamat TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 
 ---
+Keterangan : Web ini hanya di gunakan untuk mengelola data pegawai saja 
