@@ -39,3 +39,5 @@ CREATE TABLE pegawai (
     alamat TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+---
