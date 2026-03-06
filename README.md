@@ -43,3 +43,4 @@ CREATE TABLE pegawai (
 
 ---
 Keterangan : Web ini hanya di gunakan untuk mengelola data pegawai saja 
+             Jika anda inigni memakainya untuk mengelola data yang lebih kompleks sepertinya source code tersebut tidak cocok   
